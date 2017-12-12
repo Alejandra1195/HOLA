@@ -1,0 +1,95 @@
+*{
+	box-sixing:box-border;
+}
+	
+body{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+
+header .fila-negra{
+	background-color:#000;
+	font-size:12px;
+
+}
+
+header .fila-roja{
+	background-color:#F00;
+
+}
+
+header .bloque-derecha{
+	float:right;
+}
+
+.container{
+	max-width:970px;
+	margin:0 auto;
+}
+
+
+header .fila-negra ul.menu
+{
+	display:inline-block;
+	margin: 0 10px;
+	padding:6px;
+}
+
+header .fila-negra ul.menu li
+{
+	display:inline-block;
+}
+
+header .fila-negra ul.menu li a{
+	color:#FFF;
+	text-decoration:none;
+	padding:8px;
+}
+
+header .ingresar{
+	color:#FFF;
+	text-decoration:none;
+	font-size:10px;
+	
+}
+
+header .ingresar i{
+	font-size:25px;
+
+}
+header .ingresar span.texto,
+{
+	float:left;
+}
+
+header .carrito
+{
+	padding:3px;
+	background-color:#30F;
+	color:#FFF;
+	text-decoration:none;
+}
+header .carrito
+{
+	font-size:25px;
+}
+
+
+.bloque-derecha ul li{
+	display:inline-block;
+}
+
+header .fila-roja .brand{
+	height:40px;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+header .fila-roja .brand img{
+	height:30px;
+	width:70px;
+
+}
